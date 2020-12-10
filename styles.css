@@ -1,0 +1,96 @@
+
+body  {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: black;
+}
+header {
+  background-image: url("https://www.barcelonacodeschool.com/files/pics/cur_files/squares.svg");
+  background-color: white;
+  display: block;
+  padding: 2.5em 0;
+  margin: 0;
+}
+h1 {
+  font-size: 3em;
+  text-align: left;
+  margin: 5%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1% 10%;
+} 
+
+.chatIcon {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 5%;
+  padding: 1% 3%;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  padding: 2em 10%;
+  margin-bottom: 2em;
+
+}
+
+.white {
+  background-color: white;
+  color: black;
+  padding: 2em 10%;
+  margin-bottom: 2em;
+}
+
+.boxes {
+  text-align: left;
+  border-style: ridge;
+  margin-bottom: 1em;
+  padding: 1em; 
+  box-shadow: 2px 5px; 
+}
+
+.boxes h3 {
+  border-bottom: 1px solid black;
+}
+
+.partnersImg {
+  width: 100%;
+
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+
+footer p {
+  font-size: small;
+  margin-bottom: 0;
+}
+
+
+
