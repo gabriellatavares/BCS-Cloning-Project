@@ -1,1 +1,1 @@
-Here it is the cloning project number 2. I wasn't sure if in the partners section I had to recreate all the links, so I didn't do it. Please let me know if there is something else to do. s
+This is a pure layout cloning project I did during the bootcamp of the school's website. I used CSS Grid for the outer layout such as dividing page into fixed columns, and CSS Flexbox on the inner layout such as vertical centering and navigation items etc.
